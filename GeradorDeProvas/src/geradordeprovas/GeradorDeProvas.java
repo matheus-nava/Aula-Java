@@ -19,7 +19,7 @@ public class GeradorDeProvas {
 
         System.out.print("Materia: ");
         Prova p = new Prova(s.nextLine());
-        System.out.print("Local: ");
+        System.out.print("Local(Cidade): ");
         p.setLocal(s.nextLine());
         System.out.print("Data: ");
         p.setData(s.nextLine());
